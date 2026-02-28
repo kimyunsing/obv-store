@@ -16,7 +16,11 @@ export default function ProductPage() {
         </p>
 
         <div className="mt-10 rounded-[28px] overflow-hidden bg-zinc-100 aspect-[16/10] flex items-center justify-center">
-          <span className="text-zinc-400 text-sm">Product Image</span>
+          <img
+  src="sofa-table.png"
+  alt="OBV Stainless Steel Sofa Table"
+  className="w-full h-full object-cover"
+/>
         </div>
 
         <div className="mt-10 flex items-center justify-between">
