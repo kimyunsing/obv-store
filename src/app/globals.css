@@ -24,3 +24,21 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+:root{
+  --font-sans: var(--font-geist-sans), var(--font-kr), ui-sans-serif, system-ui, -apple-system;
+}
+
+body{
+  font-family: var(--font-sans);
+  letter-spacing: -0.015em;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,h2,h3{
+  letter-spacing: -0.03em;
+}
+
+p{
+  line-height: 1.68;
+}
