@@ -1,19 +1,15 @@
 import "./globals.css";
-import { GeistSans } from "geist/font/sans";
-import { Noto_Sans_KR } from "next/font/google";
+import type { Metadata } from "next";
 
-const noto = Noto_Sans_KR({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "700"],
-  variable: "--font-kr",
-});
+export const metadata: Metadata = {
+  title: "OBV — Obvious Objects",
+  description: "Obvious objects. Essential living.",
+};
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="ko">
-      <body className={`${GeistSans.variable} ${noto.variable} antialiased`}>
-        {children}
-      </body>
+    <html lang="en">
+      <body>{children}</body>
     </html>
   );
 }
