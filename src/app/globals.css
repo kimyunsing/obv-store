@@ -2,12 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
-body {
+/* 기본 리셋 + 애플 느낌 최소 세팅 */
+html, body {
   height: 100%;
 }
 
 body {
-  background: white;
-  color: #09090b;
+  background: #fff;
+  color: #0a0a0a;
 }
